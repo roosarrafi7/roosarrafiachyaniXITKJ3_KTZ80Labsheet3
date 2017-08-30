@@ -6,6 +6,6 @@
 	LD A,00H
 	ADC A,00H
 	LD H,A
-	LD (01810), HL
+	LD (01850), HL
 	HALT
 	.END
